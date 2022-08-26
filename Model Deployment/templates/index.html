@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Used Car Price Prediction</title>
+</head>
+<body>
+    <h1>Used car price prediction</h1>
+    <div>
+        <form method="POST">
+            <input name="Maker" placeholder="Maker">
+            <br>
+            <input name="model" placeholder="Model">
+            <br>
+            <input name="Distance" placeholder="Distance">
+            <br>
+            <input name="Owner Type" placeholder="Owner Type">
+            <br>
+            <input name="manufacture_year" placeholder="Manufacture Year">
+            <br>
+            <input name="engine_displacement" placeholder="Engine Displacement">
+            <br>
+            <input name="engine_power" placeholder="Engine Power"> 
+            <br>
+            <input name="door_count" placeholder="Door Count">
+            <br>
+            <input name="seat_count" placeholder="Seat Count">
+            <br>
+            <input name="body_type" placeholder="Body Type">
+            <br>
+            <input name="Vroom Audit Rating" placeholder="Vroom Audit Rating">
+            <br>
+            <input name="fuel_type" placeholder="Fuel Type">
+            <br>
+            <input name="Location" placeholder="Location">
+            <br>
+            <input name="transmission" placeholder="Transmission">
+            <br>
+            <input type="submit" >
+        </form>
+
+
+        <br>
+        <br>
+        {{ prediction_text }}
+    </div>
+</body>
+</html>
